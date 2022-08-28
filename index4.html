@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pai?</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color: white;
+        font-family: Lucida;
+    }
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+    }
+    .audio{
+        background-color: black;
+    }
+    .child{
+        display: flex;
+        justify-content: center;
+    }
+</style>
+<body>
+    <h1>Vik...</h1>
+    <p>O homem que voce se tornou, papai estaria orgulhoso, voce não so se tornou um rei, como um deus</p>
+    <p>Sei que minha morte lhe causou um peso irrevesivel mas... tente se lembrar de quem tu es</p>
+    <p>sua cabeça pode se perder facil, eu sei disso, não deixe as palavras ti afetarem.. continue sendo incrivel</p>
+    <p>Lembra.. Ikkarus sempre estará com voce.</p>
+    <div class="container">
+            <div class="child">
+                <audio autoplay>
+                <source src="audios/Ikk.mp3">
+                </audio>
+            </div> 
+    </div>
+    <br>
+    <br>
+    <footer> Eduardo - Pai</footer>
+    <script>
+            typeWrite(res);
+
+            function typeWrite(element) {
+            const textArray = element.innerHTML.split('');
+            element.innerHTML = '';
+            textArray.forEach((str, index) => {
+            setTimeout(function () {
+                element.innerHTML += str
+            }, 85 * index)
+        })
+        }      
+    </script>
+</body>
+</html>

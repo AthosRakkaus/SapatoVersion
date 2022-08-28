@@ -1,0 +1,139 @@
+h1{
+    text-align: center;
+}
+
+#block{
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-top-width: 15px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+body{
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-family: Lucida;
+}
+
+#name{
+    border: none;
+    border-radius: 5px;
+    font-family: Lucida;
+    font-size: 15pt;
+}
+
+#pass{
+    border: none;
+    border-radius: 5px;
+    font-family: Lucida;
+    font-size: 15pt;
+}
+
+#enviar{
+    border: none;
+    font-family: Lucida;
+    font-size: 15pt;
+}
+#enviar:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+#res{
+    font-family: Lucida;
+    font-size: 14pt;
+}
+#pag{
+    font-family: lucida;
+    font-size: 14pt;
+}
+#containe{
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-top-width: 15px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+#data{
+    border: none;
+    font-family: Lucida;
+    font-size: 13pt;
+    width: 140px;
+    height: 20px;
+    
+}
+#sopapo{
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-top-width: 15px;
+    margin-right: 200px;
+    margin-left: 200px;
+}#txt1{
+    border: none;
+    border-radius: 5px;
+    font-family: Lucida;
+    font-size: 15pt;
+}#send{
+    border: none;
+    font-family: Lucida;
+    font-size: 13pt;
+}
+#send:hover{
+    background-color: red;
+    cursor: pointer;
+}
+#btn{
+    color: black;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.teupai{
+    font-size: 20;
+}
+
+.teupai:hover{
+    color:red;
+    cursor: pointer;
+}
+
+@keyframes teupai {
+    0% {
+      opacity: 0.1;
+    }
+  
+    5% {
+      opacity: 0.7;
+    }
+  
+    30% {
+      opacity: 0.4;
+    }
+  
+    45% {
+      opacity: 0.6;
+    }
+  
+    76% {
+      opacity: 0.4;
+    }
+  
+    90% {
+      opacity: 0.8;
+    }
+  
+    1%,
+    7%,
+    33%,
+    47%,
+    78%,
+    93% {
+      opacity: 0;
+    }
+  }
