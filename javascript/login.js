@@ -57,11 +57,6 @@ function correct(){
         else{
             res.innerHTML = "Acesso negado."
                 typeWrite(res);
-                window.alert("Bem vindo. Sei que ainda vai descobrir a senha, mas enquanto isso não acontece.. gostaria de um jogo?")
-                setTimeout(() => {
-                    window.alert("https://mega.nz/file/SHRxQY7A#gHJLUMRVqOzJN7iMv3z-6Xzui0bBAQNiuqzCdKDIuwo")
-                }, 5000);
-        }
 }
             
     //Type Writer
